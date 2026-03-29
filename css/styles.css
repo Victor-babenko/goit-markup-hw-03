@@ -163,12 +163,8 @@ a {
 }
 
 .order-service {
-    /*max-width: 169px;
-    margin-bottom: 187px;*/
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
+    max-width: 169px;
+    margin-bottom: 187px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -185,7 +181,7 @@ a {
     background-color: #404bbf;
 }
 
-.visually-hidden {
+.hidden-title {
     display: none;
 }
 
@@ -196,7 +192,7 @@ a {
 }
 
 .tit-our {
-    width: (calc(100% - 24px * 3) / 4);
+    width: (calc(100% - 24 * 3) / 4);
 }
 
 .features-title {
@@ -226,9 +222,8 @@ a {
 }
 
 .our-team-title {
-    margin-bottom: 8px
     margin: 0 auto;
-    /*margin-bottom: 72px;*/
+    margin-bottom: 72px;
     padding: 120px 0 0 0;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -251,7 +246,7 @@ a {
     background-color: #fff;
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0;
-    width: (calc(100% - 24px * 3) / 4);
+    width: (calc(100% - 24 * 3) / 4);
 }
 
 .team-member-name {
@@ -336,10 +331,8 @@ a {
 }
 
 .portfolio-title2 {
-    border: 1px solid #e7e9fc;
-    margin-bottom: 8px
     margin: 0 auto;
-    /*margin-bottom: 72px;*/
+    margin-bottom: 72px;
     padding: 120px 0 0 0;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -357,7 +350,7 @@ a {
 }
 
 .taste-item {
-    /*border: 1px solid #e7e9fc;*/
+    border: 1px solid #e7e9fc;
         width: 360px;
         height: 420px;
       
