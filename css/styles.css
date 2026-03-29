@@ -7,12 +7,45 @@ body {
 ul,
 ol {
     list-style: none;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
 
 }
+
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -21,16 +54,28 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
     color: #4d5ae5;
+}
+
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
 }
 
 .header-logo .logo-part {
     color: #2e2f42;
 }
 
-
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 
 .nav-link {
+    padding: 24px 0;
+    display: block;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -47,9 +92,18 @@ a {
 
 .contacts {
     font-style: normal;
+    margin-left: auto;
+}
+
+.contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .contacts-link {
+    padding: 24px 0;
+    display: block;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -64,9 +118,17 @@ a {
 
 .hero {
     background-color: #2e2f42;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-title {
+    margin-bottom: 48px;
+    max-width: 496px;
+    padding: 188px 0 0 0;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
@@ -94,8 +156,14 @@ a {
 .order-service {
     cursor: pointer;
 }*/
+.button {
+    display: block;
+    margin: 0 auto;
+}
 
 .order-service {
+    max-width: 169px;
+    margin-bottom: 187px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -112,31 +180,50 @@ a {
     background-color: #404bbf;
 }
 
-.features-title{
-    font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+.hidden-title {
+    display: none;
 }
 
-.features-description{
+.our-features-tit {
+    padding: 120px 0;
+    display: flex;
+    gap: 24px;
+}
+
+.tit-our {
+    width: (calc(100% - 24 * 3) / 4);
+}
+
+.features-title {
     font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.features-description {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 
 
 .our-team {
     background-color: #f4f4fd;
+    /*display: flex;
+        flex-wrap: wrap;*/
 }
 
- .our-team-title {
+.our-team-title {
+    margin: 0 auto;
+    margin-bottom: 72px;
+    padding: 120px 0 0 0;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -146,8 +233,19 @@ a {
     color: #2e2f42;
 }
 
+.li-flex {
+    /*margin: auto;*/
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    /*width: calc((100% - 24px * 3) / 4);*/
+}
+
 .color-li {
     background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0;
+    width: (calc(100% - 24 * 3) / 4);
 }
 
 .team-member-name {
@@ -232,6 +330,9 @@ a {
 }
 
 .portfolio-title2 {
+    margin: 0 auto;
+    margin-bottom: 72px;
+    padding: 120px 0 0 0;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -239,6 +340,19 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+}
+
+.item-li {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.taste-item {
+    border: 1px solid #e7e9fc;
+        width: 360px;
+        height: 420px;
+      
 }
 
 .portfolio-name {
