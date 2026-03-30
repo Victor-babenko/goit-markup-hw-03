@@ -208,6 +208,10 @@ a {
     padding: 120px 0;
 }
 
+.team-card-img {
+    display: block;
+}
+
 .our-team-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -262,6 +266,10 @@ a {
 /* Portfolio section */
 .our-portfolio {
     padding: 120px 0;
+}
+
+.portfolio-card-img {
+    display: block;
 }
 
 .portfolio-title {
